@@ -1,0 +1,24 @@
+CHAMADOS PARA SERVIR — LETRAS GRANDES
+
+TESTAR NO VS CODE
+1. Extraia a pasta Chamados-para-Servir-Letras-Grandes.
+2. No VS Code, use Arquivo > Abrir Pasta e selecione a pasta extraída.
+3. Abra index.html com Live Server (clique com o botão direito > Open with Live Server).
+4. Teste as três coleções, a navegação, A−/A+ e o retorno à leitura do dia.
+
+CONTEÚDO ORIGINAL
+- O profissional que Deus Aprova: 34 leituras.
+- Como Deus Ensinou: 50 leituras.
+- Liderar Sem Perder a Alma: 10 capítulos.
+Os três JSONs enviados foram preservados sem alteração e estão na pasta dados.
+
+LEITURA DIÁRIA
+A rotação começa no registro 1 em 02/11/2026 e avança automaticamente a cada dia, de forma independente em cada coleção.
+
+INSTALAÇÃO
+Para instalar como PWA em Android e iPhone, publique depois em HTTPS.
+No iPhone, abra o endereço no Safari e use Compartilhar > Adicionar à Tela de Início.
+No Android, use o menu do navegador ou o botão Instalar aplicativo quando disponível.
+
+Todos os textos da área de leitura usam alinhamento justificado. A logo gerada acompanha o aplicativo e também é usada como ícone.
+Este projeto é independente e não altera o app Renova-me original.

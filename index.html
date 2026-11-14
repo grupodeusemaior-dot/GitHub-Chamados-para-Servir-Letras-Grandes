@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#142d4b">
+<meta name="description" content="Chamados para Servir — leituras diárias em letras grandes.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+<title>Chamados para Servir — Letras Grandes</title>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><img src="icon-192.png" alt=""><div><strong>RENOVA-ME DEUS MEU</strong><small>Palavra, fé e serviço</small></div></div>
+  <button id="installBtn" class="install" hidden>Instalar aplicativo</button>
+</header>
+<main>
+  <section class="hero">
+    <img class="hero-logo" src="logo-chamados-para-servir.png" alt="Chamados para Servir — Letras Grandes">
+    <p class="eyebrow">RENOVA-ME DEUS MEU APRESENTA</p>
+    <h1>Chamados para Servir</h1>
+    <p class="subtitle">O trabalho como serviço a Deus.</p>
+    <span class="large-tag">LETRAS GRANDES</span>
+    <p class="intro">Leituras para cultivar fé, caráter, propósito e serviço em cada responsabilidade.</p>
+  </section>
+
+  <section id="home" class="library">
+    <h2>Escolha uma coleção</h2>
+    <div class="book-grid">
+      <button class="book-card" data-book="profissional"><span class="number">01</span><strong>O profissional que Deus Aprova</strong><small>Fé, caráter e propósito no trabalho.</small><span class="open">Abrir coleção →</span></button>
+      <button class="book-card" data-book="cristo"><span class="number">02</span><strong>Como Deus Ensinou</strong><small>Aprendendo com Cristo a trabalhar e servir.</small><span class="open">Abrir coleção →</span></button>
+      <button class="book-card" data-book="liderar"><span class="number">03</span><strong>Liderar Sem Perder a Alma</strong><small>Liderança com sabedoria, caráter e humanidade.</small><span class="open">Abrir coleção →</span></button>
+    </div>
+  </section>
+
+  <section id="reader" class="reader" hidden>
+    <div class="reader-toolbar">
+      <button id="backBtn" class="secondary">← Coleções</button>
+      <div class="font-tools"><button id="smaller" aria-label="Diminuir letras">A−</button><button id="larger" aria-label="Aumentar letras">A+</button></div>
+    </div>
+    <p class="eyebrow">CHAMADOS PARA SERVIR</p>
+    <h2 id="bookTitle"></h2>
+    <p id="dateLabel" class="date"></p>
+    <article id="content" class="reading-content"></article>
+    <nav class="nav">
+      <button id="prevBtn" class="secondary">← Anterior</button>
+      <span id="count"></span>
+      <button id="nextBtn" class="primary">Próximo →</button>
+    </nav>
+    <button id="todayBtn" class="today">Voltar à leitura do dia</button>
+  </section>
+</main>
+<footer>Renova-me Deus Meu · Chamados para Servir</footer>
+<script src="app.js"></script>
+</body>
+</html>
